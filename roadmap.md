@@ -1,13 +1,13 @@
 # Gesmuse
 ##  UI roadmap
 * [ ] 初始界面： - 待定
-    * [ ] 初次打开： 
+    * [ ] 初次打开：
         * [ ] 全屏提示（或选择）
     * [ ] 加载动画
     * [ ] 初次打开：
         * [ ] 帮助文档
         * [ ] 校准界面
-      
+
 * [ ] 主页面MainWindow：- lmq
     * [ ] 背景动画 - lmq
     * [ ] 开始button
@@ -27,11 +27,11 @@
         * [ ] 分辨率（菜单） - 待定
     * [ ] 帮助文档 - lmq & hla
     * [ ] 退出
-## openCV
-* [ ] - hla & zsc
-## 深度学习
+## openCV图像预处理
+* [ ] - hla & zsc &zth
+## 深度学习手势识别
 * [ ] - dyx
 ## Pre&Vedio
-* [ ] - cmh &  cyr
-## 
+* [ ] - cmh & cyr
+## 手势-feedback-鼓点
 * [ ] - lch & wlp & zth
