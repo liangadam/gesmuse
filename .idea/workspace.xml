@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gesmuse_UI/UIhere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_drums/drumshere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_gesture/gesturehere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/icon/iconhere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/mp3/mp3here.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/picture/picturehere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/vedio/vediohere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesmuse_resources/text/texthere.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +15,7 @@
     <favorites_list name="gesmuse" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesmuse_gesture/gesturehere.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/gesmuse_drums/drumshere.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="31">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -76,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesmuse_resources/vedio/vediohere.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gesmuse_resources/text/texthere.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,6 +111,7 @@
         <option value="$PROJECT_DIR$/gesmuse_resources/mp3/mp3here.py" />
         <option value="$PROJECT_DIR$/gesmuse_resources/picture/picturehere.py" />
         <option value="$PROJECT_DIR$/gesmuse_resources/vedio/vediohere.py" />
+        <option value="$PROJECT_DIR$/gesmuse_resources/text/texthere.py" />
       </list>
     </option>
   </component>
@@ -134,17 +138,11 @@
             <path>
               <item name="gesmuse" type="b2602c69:ProjectViewProjectNode" />
               <item name="gesmuse" type="462c0819:PsiDirectoryNode" />
-              <item name="gesmuse_drums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesmuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesmuse" type="462c0819:PsiDirectoryNode" />
-              <item name="gesmuse_gesture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesmuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesmuse" type="462c0819:PsiDirectoryNode" />
               <item name="gesmuse_resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gesmuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -157,6 +155,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,12 +181,13 @@
       <updated>1562729615797</updated>
       <workItem from="1562729625995" duration="19000" />
       <workItem from="1562729877436" duration="1719000" />
-      <workItem from="1562736048378" duration="792000" />
+      <workItem from="1562736048378" duration="1008000" />
+      <workItem from="1562737081533" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2530000" />
+    <option name="totallyTimeSpent" value="3079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,7 +202,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" weight="0.25672767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.26049516" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,9 +211,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49838537" weight="0.3293348" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49838537" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49784714" weight="0.32861805" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49784714" weight="0.32824427" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50215286" side_tool="true" weight="0.32861805" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994618" weight="0.3293348" />
@@ -273,7 +273,7 @@
     <entry file="file://$PROJECT_DIR$/gesmuse_drums/drumshere.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -301,7 +301,14 @@
     <entry file="file://$PROJECT_DIR$/gesmuse_resources/vedio/vediohere.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesmuse_resources/text/texthere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
