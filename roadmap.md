@@ -28,7 +28,7 @@
     * [ ] 帮助文档 - lmq & hla
     * [ ] 退出
 ## openCV图像预处理
-* [ ] - hla & zsc &zth
+* [ ] - hla & zsc & zth
 ## 深度学习手势识别
 * [ ] - dyx
 ## Pre&Vedio
