@@ -3,7 +3,7 @@
 from gesmuse_UI.button_design import Button
 startbutton = Button.StartButton(self)
 """
-import sys
+
 from PyQt5.QtWidgets import QPushButton
 
 
@@ -51,3 +51,11 @@ class Button:
                                  "QPushButton:hover{border-image: url(../gesmuse_resources/image/exit_img-2.png)}"
                                  "QPushButton:pressed{border-image: url(../gesmuse_resources/image/exit_img-1.png)}")
         return exitButton
+
+    def BackButton(self):
+        backButton = QPushButton()
+        backButton.setMinimumSize(50, 100)
+        backButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/back_img-1.png)}"
+                                 "QPushButton:hover{border-image: url(../gesmuse_resources/image/back_img-2.png)}"
+                                 "QPushButton:pressed{border-image: url(../gesmuse_resources/image/back_img-1.png)}")
+        return backButton
