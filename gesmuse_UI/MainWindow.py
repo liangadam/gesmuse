@@ -5,7 +5,8 @@ from PyQt5 import QtGui, QtWidgets, QtCore
 import sys
 import gesmuse_UI.hisworkWin as hisworkWin
 import gesmuse_UI.helpWindow as helpWin
-import  gesmuse_UI.settingWin as settingWin
+import gesmuse_UI.settingWin as settingWin
+from gesmuse_UI.button_design import Button
 
 
 class Ges(QWidget):
@@ -15,11 +16,11 @@ class Ges(QWidget):
 
     def initUI(self):
         # 创建按钮
-        startbutn = QPushButton('开\n始\n创\n作')
-        hisworkbutn = QPushButton('我\n的\n作\n品')
-        settingbutn = QPushButton('设\n\n\n置')
-        helpbutn = QPushButton('教\n\n\n程')
-        quitbutn = QPushButton('退\n\n\n出')
+        startbutn = Button.StartButton(self)
+        hisworkbutn = Button.OpusButton(self)
+        settingbutn = Button.SettingButton(self)
+        helpbutn = Button.HelpButton(self)
+        quitbutn = Button.ExitButton(self)
         # 为按钮添加功能
         startbutn.clicked.connect(self.changeWindow)
         hisworkbutn.clicked.connect(self.hisworkWindow)
@@ -27,29 +28,7 @@ class Ges(QWidget):
         helpbutn.clicked.connect(self.helpWindow)
         quitbutn.clicked.connect(self.close)
         # 设置按钮外观
-        startbutn.setFixedSize(50, 200)
-        hisworkbutn.setFixedSize(50, 200)
-        settingbutn.setFixedSize(50, 200)
-        helpbutn.setFixedSize(50, 200)
-        quitbutn.setFixedSize(50, 200)
 
-        myfont = QtGui.QFont('楷体', 18)
-        myfont.setBold(True)
-        startbutn.setFont(myfont)
-        hisworkbutn.setFont(myfont)
-        settingbutn.setFont(myfont)
-        helpbutn.setFont(myfont)
-        quitbutn.setFont(myfont)
-
-        """
-        设置按钮背景图
-        quitbutn.setStyleSheet("QPushButton{border-image: url(butn3.png)}")
-        
-        按钮透明
-        op = QtWidgets.QGraphicsOpacityEffect()
-        op.setOpacity(0)
-        quitbutn.setGraphicsEffect(op)
-        """
         # 窗口布局
         hbox = QHBoxLayout()
         hbox.addStretch(5)
@@ -71,7 +50,7 @@ class Ges(QWidget):
 
         self.setLayout(vbox)
 
-        #self.setFixedSize(1152, 648)  # 固定窗口大小
+        # self.setFixedSize(1152, 648)  # 固定窗口大小
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)  # 隐藏边框
         self.setWindowTitle("Gesmuse")
         self.show()
@@ -80,7 +59,7 @@ class Ges(QWidget):
     def paintEvent(self, QPaintEvent):
         painter = QPainter(self)
         painter.drawRect(self.rect())
-        pixmap = QPixmap("..//gesmuse_resources//picture//MainBack.jpg")
+        pixmap = QPixmap("..//gesmuse_resources//image//MainBack.jpg")
         painter.drawPixmap(self.rect(), pixmap)
 
     # 跳转到创作页面
@@ -94,17 +73,18 @@ class Ges(QWidget):
         hisWin.exec_()
 
     def settingWindow(self):
-        setWin=settingWin.SettingWindow()
-        setWin.show()
-        setWin.exec_()
+        self.setWin = settingWin.SettingWindow()
+        self.setWin.my_signal.connect(self.apply_set)
+        self.setWin.show()
+        self.setWin.exec_()
+
+    def apply_set(self,connect):
+        pass
 
     def helpWindow(self):
-        helWin=helpWin.HelpWindow()
+        helWin = helpWin.HelpWindow()
         helWin.show()
         helWin.exec_()
-
-
-
 
 
 if __name__ == '__main__':

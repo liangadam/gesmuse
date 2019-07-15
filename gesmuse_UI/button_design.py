@@ -14,7 +14,7 @@ class Button:
 
     def StartButton(self):
         startButton = QPushButton()
-        startButton.setMinimumSize(50, 100)  # 设置最小大小，主页面按钮图标原尺寸为200:400，为使图标不变形，请保持比例不变
+        startButton.setMinimumSize(100, 200)  # 设置最小大小，主页面按钮图标原尺寸为200:400，为使图标不变形，请保持比例不变
         startButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/start_img-1.png)}"
                                   "QPushButton:hover{border-image: url(../gesmuse_resources/image/start_img-2.png)}"
                                   "QPushButton:pressed{border-image: url(../gesmuse_resources/image/start_img-1.png)}")
@@ -22,7 +22,7 @@ class Button:
 
     def OpusButton(self):
         opusButton = QPushButton()
-        opusButton.setMinimumSize(50, 100)
+        opusButton.setMinimumSize(100, 200)
         opusButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/opus_img-1.png)}"
                                  "QPushButton:hover{border-image: url(../gesmuse_resources/image/opus_img-2.png)}"
                                  "QPushButton:pressed{border-image: url(../gesmuse_resources/image/opus_img-1.png)}")
@@ -30,7 +30,7 @@ class Button:
 
     def SettingButton(self):
         settingButton = QPushButton()
-        settingButton.setMinimumSize(50, 100)
+        settingButton.setMinimumSize(100, 200)
         settingButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/setting_img-1.png)}"
                                     "QPushButton:hover{border-image: url(../gesmuse_resources/image/setting_img-2.png)}"
                                     "QPushButton:pressed{border-image: url(../gesmuse_resources/image/setting_img-1.png)}")
@@ -38,7 +38,7 @@ class Button:
 
     def HelpButton(self):
         helpButton = QPushButton()
-        helpButton.setMinimumSize(50, 100)
+        helpButton.setMinimumSize(100, 200)
         helpButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/help_img-1.png)}"
                                  "QPushButton:hover{border-image: url(../gesmuse_resources/image/help_img-2.png)}"
                                  "QPushButton:pressed{border-image: url(../gesmuse_resources/image/help_img-1.png)}")
@@ -46,7 +46,7 @@ class Button:
 
     def ExitButton(self):
         exitButton = QPushButton()
-        exitButton.setMinimumSize(50, 100)
+        exitButton.setMinimumSize(100, 200)
         exitButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/exit_img-1.png)}"
                                  "QPushButton:hover{border-image: url(../gesmuse_resources/image/exit_img-2.png)}"
                                  "QPushButton:pressed{border-image: url(../gesmuse_resources/image/exit_img-1.png)}")
