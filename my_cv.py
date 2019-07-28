@@ -9,8 +9,8 @@ import numpy as np
 import cv2
 
 #标记检测区域向下偏移量
-PD=0
-
+PD=60
+zero=np.zeros((256,256,3),np.int32)
 
 class My_eye(object):
     #构造函数：px,py为窗口位置，raw,col为检测区域的大小
@@ -34,9 +34,9 @@ class My_eye(object):
         
         while(1):
             ret,self.frame=self.cap.read()
-            
-            cv2.rectangle(self.frame,(0,PD),(self.raw-1,self.col+PD-1),(255,255,255),3)
-            cv2.imshow('frame',self.frame)
+            frame2=self.frame.copy()
+            cv2.rectangle(frame2,(0,PD),(self.raw-1,self.col+PD-1),(255,255,255),3)
+            cv2.imshow('frame',frame2)
             k=cv2.waitKey(5)&0xff
             if k==27:
                 print('succeed!')
@@ -46,20 +46,18 @@ class My_eye(object):
     #x与y坐标位置相反(但画长方形时没有反)
     #音乐创作页使用，让用户实时看到自己手的位形
     def voi_show(self):
-        voi=self.frame[PD:self.col+PD-1,0:self.raw-1].copy()
-        #取反
-        voi_not=cv2.bitwise_not(voi)
+        voi2=self.frame[PD:self.col+PD,0:self.raw].copy().astype(np.int32)
         cv2.namedWindow('voi')
         cv2.moveWindow('voi',self.py,self.px)
         while(1):
             ret,self.frame=self.cap.read()
-            voi=self.frame[PD:self.col+PD-1,0:self.raw-1]
+            voi=self.frame[PD:self.col+PD,0:self.raw].astype(np.int32)
             #做差
-            sub=cv2.bitwise_and(voi_not,voi)
+            sub=np.abs(voi-voi2).astype(np.uint8)
             #灰度化
             sub_gray=cv2.cvtColor(sub,cv2.COLOR_BGR2GRAY)
             #二值化
-            ret1,img=cv2.threshold(sub_gray,30,100,cv2.THRESH_BINARY)#???
+            ret1,img=cv2.threshold(sub_gray,20,80,cv2.THRESH_BINARY)#???
 
             kernel = np.ones((5,5),np.uint8)
             opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
@@ -78,7 +76,7 @@ class My_eye(object):
             if l:
                 n=l.index(max(l))
                 cv2.drawContours(img2,ct3,n,255,2)
-                self.img=img2/255
+                self.img=sub_gray
             #print(n)
             
             cv2.imshow('voi',img2)
@@ -87,5 +85,4 @@ class My_eye(object):
                 cv2.imwrite('test.jpg',img)
             elif k==27:
                 break
-        print(img2.shape)
         cv2.destroyAllWindows()
