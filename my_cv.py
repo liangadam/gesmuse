@@ -42,9 +42,7 @@ class My_eye(object):
                 print('succeed!')
                 break
         cv2.destroyAllWindows()
-        cv2.imshow('img',self.frame[PD:self.col+PD-1,0:self.raw-1])
-        cv2.waitKey(3000)
-    
+        
     #x与y坐标位置相反(但画长方形时没有反)
     #音乐创作页使用，让用户实时看到自己手的位形
     def voi_show(self):
