@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesmuse_UI/button_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/button_design.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv.py" afterDir="false" />
-    </list>
+    <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+            <state relative-caret-position="158">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#0#119#0" expanded="true" />
               </folding>
@@ -243,12 +236,12 @@
       <workItem from="1562988102995" duration="17740000" />
       <workItem from="1563186822956" duration="9341000" />
       <workItem from="1563361159106" duration="778000" />
-      <workItem from="1564459370267" duration="9154000" />
+      <workItem from="1564459370267" duration="9762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47499000" />
+    <option name="totallyTimeSpent" value="48107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        <state relative-caret-position="158">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="e#0#119#0" expanded="true" />
           </folding>
