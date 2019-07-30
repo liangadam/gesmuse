@@ -54,7 +54,7 @@ class Button:
 
     def BackButton(self):
         backButton = QPushButton()
-        backButton.setMinimumSize(50, 100)
+        backButton.setMinimumSize(100, 200)
         backButton.setStyleSheet("QPushButton{border-image: url(../gesmuse_resources/image/back_img-1.png)}"
                                  "QPushButton:hover{border-image: url(../gesmuse_resources/image/back_img-2.png)}"
                                  "QPushButton:pressed{border-image: url(../gesmuse_resources/image/back_img-1.png)}")

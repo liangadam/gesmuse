@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import (QDesktopWidget, QDialog, QPushButton,
 from PyQt5 import QtGui
 from PyQt5.QtGui import QPainter,QPixmap
 
+
 class HisworkWindow(QDialog):
     def __init__(self):
         super().__init__()

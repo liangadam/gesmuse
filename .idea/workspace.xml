@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/image/MainBack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gesmuse_resources/image/chidback.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gesmuse_UI/button_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/button_design.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesmuse_UI/helpWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/helpWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +21,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="1319">
+              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
               <folding>
                 <element signature="e#0#140#0" expanded="true" />
               </folding>
@@ -35,12 +45,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
+        <entry file="file://$PROJECT_DIR$/gesmuse_UI/hisworkWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="57" />
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#119#0" expanded="true" />
+                <element signature="e#0#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_cv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#80#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,18 +94,19 @@
         <option value="$PROJECT_DIR$/gesmuse_resources/vedio/vediohere.py" />
         <option value="$PROJECT_DIR$/gesmuse_resources/text/texthere.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/Example.py" />
-        <option value="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/helpWindow.py" />
-        <option value="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/button_design.py" />
+        <option value="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" />
+        <option value="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/settingWin.py" />
+        <option value="$PROJECT_DIR$/my_cv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -102,27 +124,30 @@
             <path>
               <item name="gesmuse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Z:\GitHub\gesmuse" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="gesmuse_resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gesmuse_drums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="gesmuse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Z:\GitHub\gesmuse" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="gesmuse_resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gesmuse_UI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Python/Pycharm_code/firstpy" />
+    <property name="last_opened_file_path" value="Z:/PythonScripts/MyDjango/to_do_list" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -216,12 +241,14 @@
       <workItem from="1562825556392" duration="3819000" />
       <workItem from="1562923139810" duration="14000" />
       <workItem from="1562988102995" duration="17740000" />
-      <workItem from="1563186822956" duration="6501000" />
+      <workItem from="1563186822956" duration="9341000" />
+      <workItem from="1563361159106" duration="778000" />
+      <workItem from="1564459370267" duration="9154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34727000" />
+    <option name="totallyTimeSpent" value="47499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +263,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18381564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1886388" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,7 +277,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49784714" weight="0.32824427" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50215286" side_tool="true" weight="0.32861805" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994618" weight="0.2944384" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994618" weight="0.2935268" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49892357" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,8 +316,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gesmuse$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1563200017947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
+    <SUITE FILE_PATH="coverage/gesmuse$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1564487031405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
     <SUITE FILE_PATH="coverage/gesmuse$Example.coverage" NAME="Example Coverage Results" MODIFIED="1562989990591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
     <SUITE FILE_PATH="coverage/gesmuse$button_design.coverage" NAME="button_design Coverage Results" MODIFIED="1562829270327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
   </component>
@@ -366,55 +396,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#119#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/gesmuse_resources/image/helpback.jpg" />
+    <entry file="file://$PROJECT_DIR$/gesmuse_resources/image/chidback.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/拓展2(new).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gesmuse_UI/helpWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="98" selection-end-column="47" />
+        <state relative-caret-position="293">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="e#0#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gesmuse_UI/button_design.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gesmuse_UI/hisworkWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_UI/button_design.py">
+    <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="1319">
+          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_resources/image/helpback.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_resources/image/chidback.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
+    <entry file="file://$PROJECT_DIR$/my_cv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="347">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#0#140#0" expanded="true" />
+            <element signature="e#80#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#119#0" expanded="true" />
           </folding>
         </state>
       </provider>

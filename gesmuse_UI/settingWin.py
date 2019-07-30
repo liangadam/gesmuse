@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import (QDesktopWidget, QDialog, QPushButton,
 from PyQt5.QtCore import Qt,pyqtSignal
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtGui import QPainter,QPixmap
+from gesmuse_UI.button_design import Button
+
 
 class SettingWindow(QDialog):
     def __init__(self):
@@ -10,31 +12,28 @@ class SettingWindow(QDialog):
         self.initSW()
 
     def initSW(self):
-        cb = QCheckBox("全屏", self)
-        cb.setChecked(True)
-        cbfont = QtGui.QFont('楷体', 24)
+        cbfont = QtGui.QFont('楷体', 18)
         cbfont.setBold(True)
-        cb.setFont(cbfont)
 
-        calibrationbtn = QPushButton("校准")
-        calibrationbtn.setFont(cbfont)
-        calibrationbtn.clicked.connect(self.calibration)
-
-        quitbutn_sw = QPushButton("返回")
-        quitbutn_sw.setFont(cbfont)
+        quitbutn_sw = Button.BackButton(self)
         quitbutn_sw.clicked.connect(self.close)
 
+        quithbox=QHBoxLayout()
+        quithbox.addStretch(1)
+        quithbox.addWidget(quitbutn_sw)
+
         vbox = QVBoxLayout()
-        vbox.addWidget(cb)
-        vbox.addWidget(calibrationbtn)
+
         vbox.addStretch(1)
-        vbox.addWidget(quitbutn_sw)
+        vbox.addLayout(quithbox)
 
         self.setLayout(vbox)
 
-        self.setFixedSize(576, 648)
+        self.setFixedSize(1152, 648)
         self.setWindowTitle('设置')
         self.center()
+
+
 
     def center(self):
         screen = QDesktopWidget().screenGeometry()
@@ -44,14 +43,10 @@ class SettingWindow(QDialog):
     def calibration(self):
         pass
 
-    my_signal = pyqtSignal(str)
-
-    def closeEvent(self, event):
-        content = self.cb.isChecked()
-        self.my_signal.emit(content)
 
     def paintEvent(self, QPaintEvent):
         painter = QPainter(self)
+        painter.setBrush(Qt.black)
         painter.drawRect(self.rect())
-        pixmap = QPixmap("..//gesmuse_resources//image//chidback.jpg")
-        painter.drawPixmap(self.rect(), pixmap)
+        # pixmap = QPixmap("..//gesmuse_resources//image//chidback.jpg")
+        # painter.drawPixmap(self.rect(), pixmap)

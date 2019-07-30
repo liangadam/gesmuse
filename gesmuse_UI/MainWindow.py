@@ -7,6 +7,7 @@ import gesmuse_UI.hisworkWin as hisworkWin
 import gesmuse_UI.helpWindow as helpWin
 import gesmuse_UI.settingWin as settingWin
 from gesmuse_UI.button_design import Button
+import my_cv
 
 
 class Ges(QWidget):
@@ -34,8 +35,8 @@ class Ges(QWidget):
         hbox.addStretch(5)
         hbox.addWidget(startbutn)
         hbox.addStretch(1)
-        hbox.addWidget(hisworkbutn)
-        hbox.addStretch(1)
+        # hbox.addWidget(hisworkbutn)
+        # hbox.addStretch(1)
         hbox.addWidget(settingbutn)
         hbox.addStretch(1)
         hbox.addWidget(helpbutn)
@@ -51,6 +52,7 @@ class Ges(QWidget):
         self.setLayout(vbox)
 
         # self.setFixedSize(1152, 648)  # 固定窗口大小
+        self.showFullScreen()
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)  # 隐藏边框
         self.setWindowTitle("Gesmuse")
         self.show()
@@ -74,12 +76,11 @@ class Ges(QWidget):
 
     def settingWindow(self):
         self.setWin = settingWin.SettingWindow()
-        self.setWin.my_signal.connect(self.apply_set)
         self.setWin.show()
+        eye = my_cv.My_eye()
+        eye.frame_show()
         self.setWin.exec_()
 
-    def apply_set(self,connect):
-        pass
 
     def helpWindow(self):
         helWin = helpWin.HelpWindow()
@@ -90,5 +91,4 @@ class Ges(QWidget):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ges = Ges()
-    ges.showFullScreen()
     sys.exit(app.exec_())
