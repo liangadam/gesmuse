@@ -1,0 +1,1 @@
+{0: '44__爱给网_aigei_com.wav', 1: '47__爱给网_aigei_com.wav', 2: '51__爱给网_aigei_com.wav', 3: '41__爱给网_aigei_com.wav', 4: '42__爱给网_aigei_com.wav', 5: '53__爱给网_aigei_com.wav', 6: '43__爱给网_aigei_com.wav', 7: '46__爱给网_aigei_com.wav', 8: '55__爱给网_aigei_com.wav', 9: '45__爱给网_aigei_com.wav', 10: 'newfile_1.wav', 11: 'newfile_2.wav', 12: 'newfile_3.wav'}

@@ -6,7 +6,7 @@ def func_1(number_present):
     namelist = []
     dicfile=open('storagedic.txt','a+')
     namefile=open('namefile.txt','a+')
-    namefile.write(number_present)
+    namefile.write(number_present + os.linesep)
     dic=dicfile.read()
     if dic=='':
         dic = {}

@@ -6,7 +6,7 @@ def func_2(name):
     for i in number_list:
         # 对文件合并操作
         newfile = open(name, 'ab')
-        f = open(dic[i], 'rb')
+        f = open(dic[int(i)], 'rb')
         newfile.write(f.read())
         f.close()
         newfile.flush()
