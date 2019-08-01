@@ -40,8 +40,7 @@ class SettingWindow(QDialog):
         size = self.geometry()
         self.move((screen.width() - size.width()) / 2, (screen.height() - size.height()) / 2)
 
-    def calibration(self):
-        pass
+    
 
 
     def paintEvent(self, QPaintEvent):

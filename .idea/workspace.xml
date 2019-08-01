@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="" />
+    <list default="true" id="6355311c-5a31-4673-8f1e-1a414f8bbcae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gesmuse_UI/startWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesmuse_UI/button_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/button_design.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gesmuse_UI/settingWin.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="428">
+              <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
               <folding>
-                <element signature="e#0#119#0" expanded="true" />
+                <element signature="e#0#132#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gesmuse_UI/startWin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -28,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1319">
-              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+            <state relative-caret-position="779">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#140#0" expanded="true" />
               </folding>
@@ -40,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesmuse_UI/hisworkWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="27">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#129#0" expanded="true" />
@@ -52,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_cv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="189">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding>
                 <element signature="e#80#98#0" expanded="true" />
               </folding>
@@ -90,9 +106,11 @@
         <option value="$PROJECT_DIR$/gesmuse_UI/helpWindow.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/button_design.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/hisworkWin.py" />
-        <option value="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" />
         <option value="$PROJECT_DIR$/gesmuse_UI/settingWin.py" />
         <option value="$PROJECT_DIR$/my_cv.py" />
+        <option value="$PROJECT_DIR$/gesmuse_UI/MainWindow.py" />
+        <option value="$PROJECT_DIR$/gesmuse_UI/startWin.py" />
+        <option value="$PROJECT_DIR$/MainWindow.py" />
       </list>
     </option>
   </component>
@@ -113,11 +131,6 @@
             <path>
               <item name="gesmuse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Z:\GitHub\gesmuse" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="gesmuse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Z:\GitHub\gesmuse" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="gesmuse_drums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="gesmuse" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -163,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainWindow">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gesmuse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,8 +221,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gesmuse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APP/source/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.MainWindow" />
         <item itemvalue="Python.Example" />
       </list>
@@ -236,12 +272,16 @@
       <workItem from="1562988102995" duration="17740000" />
       <workItem from="1563186822956" duration="9341000" />
       <workItem from="1563361159106" duration="778000" />
-      <workItem from="1564459370267" duration="9762000" />
+      <workItem from="1564459370267" duration="14040000" />
+      <workItem from="1564555623678" duration="2145000" />
+      <workItem from="1564557899220" duration="1980000" />
+      <workItem from="1564566595425" duration="1610000" />
+      <workItem from="1564584405751" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48107000" />
+    <option name="totallyTimeSpent" value="58383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,9 +294,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1886388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.19935691" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25296018" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +309,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49784714" weight="0.32824427" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50215286" side_tool="true" weight="0.32861805" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994618" weight="0.2935268" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994618" weight="0.29129463" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49892357" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -313,8 +352,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gesmuse$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1564487031405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
+    <SUITE FILE_PATH="coverage/gesmuse$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1564566697040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
     <SUITE FILE_PATH="coverage/gesmuse$Example.coverage" NAME="Example Coverage Results" MODIFIED="1562989990591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
+    <SUITE FILE_PATH="coverage/gesmuse$main.coverage" NAME="main Coverage Results" MODIFIED="1564566780720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APP/source" />
     <SUITE FILE_PATH="coverage/gesmuse$button_design.coverage" NAME="button_design Coverage Results" MODIFIED="1562829270327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gesmuse_UI" />
   </component>
   <component name="editorHistoryManager">
@@ -393,9 +433,7 @@
     <entry file="file://$PROJECT_DIR$/gesmuse_resources/image/chidback.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/拓展2(new).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/拓展2(new).py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -421,9 +459,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APP/source/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/source/Call.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gesmuse_UI/hisworkWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="27">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#129#0" expanded="true" />
@@ -431,20 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1319">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_cv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="189">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="e#80#98#0" expanded="true" />
           </folding>
@@ -453,11 +491,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gesmuse_UI/MainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="1053">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesmuse_UI/settingWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#0#119#0" expanded="true" />
+            <element signature="e#0#140#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesmuse_UI/startWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
         </state>
       </provider>
     </entry>

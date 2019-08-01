@@ -46,5 +46,5 @@ class HisworkWindow(QDialog):
     def paintEvent(self, QPaintEvent):
         painter = QPainter(self)
         painter.drawRect(self.rect())
-        pixmap = QPixmap("..//gesmuse_resources//image//chidback.jpg")
+        pixmap = QPixmap(".//gesmuse_resources//image//chidback.jpg")
         painter.drawPixmap(self.rect(), pixmap)
